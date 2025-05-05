@@ -18,11 +18,9 @@ for (let i = 20; i >= 0; i--) {
 // starting values
 let z = 0;
 let x = 1;
-
 console.log(z);
 console.log(x);
 
-// now generate the next 8 values
 for (let i = 2; i < 10; i++) {
   const next = z + x;
   console.log(next);
